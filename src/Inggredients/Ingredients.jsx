@@ -59,7 +59,7 @@ const Ingredients = () => {
 
             {/* Divider */}
 
-            <hr className='w-[82%] h-[3px] bg-[#F2F2F2] border-none relative left-[20px]' />
+            <hr className='w-[82%] h-[3px] bg-[#F2F2F2] border-none relative left-[20px] hr-1' />
 
             {/* Ingredients */}
             <div className="w-[90%] max-w-[900px] relative left-[20px] top-[10px]">

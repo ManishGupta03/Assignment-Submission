@@ -17,5 +17,39 @@
     align-items: center;
 }
 
+@media (max-width: 560px) {
+    .hr-1 {
+        width: 35%;
+    }
+}
 
 
+@media (max-width: 560px) {
+    .div-1 {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 560px) {
+    .time-1 {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 560px) {
+    .div-2 {
+        margin-left: -60px;
+    }
+}
+
+@media (max-width: 560px) {
+    .div-3 {
+        margin-left: -25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .div-5 {
+        margin-left: 0px;
+    }
+}

@@ -98,10 +98,10 @@ const Home = () => {
           </div>
         )}
          {/* Divider */}
-         <hr className='relative date-time-divider ml-80  -mt-[22px]'></hr>
+         <hr className='relative date-time-divider ml-80  -mt-[22px] div-1'></hr>
 
          {/* Time Picker */}
-         <div className="time-picker flex-row relative ml-80 -mt-[16px]" onClick={toggleTimePicker}>
+         <div className="time-picker flex-row relative ml-80 -mt-[16px] time-1" onClick={toggleTimePicker}>
                                 <img src={timePickerImg} alt="time-picker-png" className="cursor-pointer" />
                                 <p className = "text-xs font-bold ml-2.5"> {startTime && endTime ? `${formatTime(startTime)} - ${formatTime(endTime)}` : "10:30 PM-12:30 PM"}</p>
                             </div>
@@ -140,7 +140,7 @@ const Home = () => {
        <div className="max-w-[900px] w-[90%]">
                 <div className="my-4 w-full flex justify-between max-w-[900px] ">
                     <h1 className='gap-5 text-lg tracking-[0.16px] font-bold '>Recommended <img src={triangleDown} alt="drop-down" /></h1>
-                    <button className="text-[0.55rem] font-bold h-full px-4 bg-[#1C1C1C] text-white shadow-md rounded-[6px] cursor-pointer">Menu</button>
+                    <button className="text-[0.55rem] font-bold h-full px-4 bg-[#1C1C1C] text-white shadow-md rounded-[6px] cursor-pointer div-5">Menu</button>
                 </div>
                 <div className='w-full flex justify-between'>
                     <DishCardSection/>

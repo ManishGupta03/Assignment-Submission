@@ -31,7 +31,7 @@ const DishCard = () => {
                                 <h2 className='text-[0.85rem]'>{item.name}</h2>
                                 <img src={vegLogo} alt="veg" className = "h-[10px] w-[10px]"/>
 
-                                <div className="flex items-center justify-center h-15 w-[52px] bg-[#51c452] gap-2 rounded-[4px]">
+                                <div className="flex items-center justify-center h-15 w-[52px] bg-[#51c452] gap-2 rounded-[4px] div-3">
                                     <p className='text-white text-[0.6rem]'>{item.rating}</p>
                                     <img src={starWhite} alt="star" className='h-[8px] w-[8px]'/>
                                 </div>
@@ -57,7 +57,7 @@ const DishCard = () => {
                                 <hr className='border-none h-full w-[0.8px] bg-[#D6D6D6CE]'/>
 
                                 {/* Ingredients */}
-                                <div className="flex flex-col">
+                                <div className="flex flex-col div-2">
                                     <h4 className='text-[0.55rem] font-bold'>Ingredients</h4>
                                     <Link to={`/ingredients/${item.id}`} className='flex justify-center items-center text-[#FF8800] text-[0.5rem] font-semibold'>View List <img src={triangleArrow} alt="arrow" className='w-5'/></Link>
                                 </div>
