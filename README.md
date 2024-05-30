@@ -19,5 +19,7 @@ Vite - A next-generation frontend build tool.
 Tailwind CSS - A utility-first CSS framework for rapidly building custom designs.
 
 ## Outputs
-![Screenshot (6492)](https://github.com/ManishGupta03/Assignment-Submission/assets/117648576/3cc41762-bfcb-4382-a9a5-3358c9829330)
-![Screenshot (6491)](https://github.com/ManishGupta03/Assignment-Submission/assets/117648576/fd1072dd-2070-4e56-af72-a9c151821da5)
+![1](https://github.com/ManishGupta03/Assignment-Submission/assets/117648576/3c904699-e859-49e3-bb2b-d40cfcc03ff8)
+![2](https://github.com/ManishGupta03/Assignment-Submission/assets/117648576/9e8ab653-d30a-4d43-bf79-b4e03b2408ee)
+
+
